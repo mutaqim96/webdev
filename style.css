@@ -2,10 +2,27 @@
   Property: value;
 } */
 /* 
-cascading is allways take the selcetor at the end. kalau ada 2 p. dia akan ambil the last p. */
+cascading is allways take the selcetor at the end. kalau ada 2 p. dia akan ambil the last p. 
+top to bottom. when making the style
+
+-css-tricks(kalau nak guna property yang kau xtau.)
+- paletton.com(untuk pilih combination color)
+-
+
+*/
+
+
+
+body{
+  background-image: url(background-image.jpg);
+  background-size: cover;
+  cursor: pointer;
+}
 
 h1,h2{
   color: red;
+  text-align: center;
+  border: 5px solid purple;
 }
 
 p{
@@ -13,3 +30,14 @@ p{
   color: blue;
 
 }
+
+li{
+  list-style: none;
+  display: inline-block;
+}
+
+.webtext{
+  border: 5px dashed green;
+
+}
+
