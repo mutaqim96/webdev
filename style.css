@@ -1,7 +1,15 @@
 /* Selector{
   Property: value;
 } */
+/* 
+cascading is allways take the selcetor at the end. kalau ada 2 p. dia akan ambil the last p. */
 
-h1{
+h1,h2{
   color: red;
+}
+
+p{
+
+  color: blue;
+
 }
